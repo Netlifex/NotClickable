@@ -33,6 +33,7 @@ public class NotClickableMod {
 
     public NotClickableMod() {
         MinecraftForge.EVENT_BUS.register(this);
+        Config.register(); // вот это обязательно, как мог забыть
     }
 
     @SubscribeEvent
@@ -40,7 +41,7 @@ public class NotClickableMod {
         CommandDispatcher<CommandSourceStack> dispatcher = event.getDispatcher();
 
         dispatcher.register(Commands.literal("notclickable")
-
+                .requires(source -> source.hasPermission(Config.getCommandPermissionLevel()))
                 .then(Commands.argument("pos", BlockPosArgument.blockPos())
                         .executes(context -> {
                             BlockPos pos = BlockPosArgument.getLoadedBlockPos(context, "pos");
@@ -52,6 +53,7 @@ public class NotClickableMod {
                                             pos.getX(), pos.getY(), pos.getZ()), true);
                             return 1;
                         })
+
                         .then(Commands.argument("state", BoolArgumentType.bool())
                                 .executes(context -> {
                                     BlockPos pos = BlockPosArgument.getLoadedBlockPos(context, "pos");
