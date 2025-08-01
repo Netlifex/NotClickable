@@ -1,8 +1,0 @@
-{
-  "commands.notclickable.set_true": "Блок (%s %s %s) теперь некликабельный.",
-  "commands.notclickable.set_false": "Блок (%s %s %s) теперь кликабельный.",
-  "commands.notclickable.no_block": "Ты не смотришь на блок!",
-  "commands.notclickable.list_header": "Некликабельные блоки:",
-  "commands.notclickable.list_empty": "Нет некликабельных блоков.",
-  "commands.notclickable.list_hover": "§eТелепортироваться сюда"
-}
