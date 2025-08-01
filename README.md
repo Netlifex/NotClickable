@@ -1,6 +1,6 @@
 # NotClickable
 
-<img width="1000" height="1000" alt="cb63c597-74e3-449b-a92f-95dd4b3493a1" src="https://github.com/user-attachments/assets/73ad88ab-a31c-47c9-a958-23076c0fe461" />
+<img width="600" height="600" alt="cb63c597-74e3-449b-a92f-95dd4b3493a1" src="https://github.com/user-attachments/assets/73ad88ab-a31c-47c9-a958-23076c0fe461" />
 
 
 **NotClickable** is a Minecraft Forge mod for 1.20.1 that lets you mark blocks as unclickable, preventing players from interacting with them.
