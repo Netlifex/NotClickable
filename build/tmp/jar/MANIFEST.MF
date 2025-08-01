@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: notclickable
+Specification-Vendor: Netlifex
+Specification-Version: 1
+Implementation-Title: notclickable
+Implementation-Version: 1.0-ALPHA
+Implementation-Vendor: Netlifex
+Implementation-Timestamp: 2025-03-07T17:15:50+0400
+

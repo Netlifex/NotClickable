@@ -1,0 +1,8 @@
+{
+  "commands.notclickable.set_true": "Block (%s %s %s) is now unclickable.",
+  "commands.notclickable.set_false": "Block (%s %s %s) is now clickable.",
+  "commands.notclickable.no_block": "You are not looking at a block!",
+  "commands.notclickable.list_header": "Unclickable blocks:",
+  "commands.notclickable.list_empty": "No unclickable blocks.",
+  "commands.notclickable.list_hover": "§eTeleport here"
+}
